@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>학번 이름</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+</head>
+
+<body>
+  <h1>공적 마스크 조회하기</h1>
+  <div style="width: 500px; float: left;">
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="부산광역시 금정구 장전동" id="input">
+      <button class="btn btn-outline-secondary" type="button" id="button">주소 검색하기</button>
+    </div>
+    <div class="list-group" style="overflow: auto; height:100vh;" id="list"></div>
+  </div>
+  <div style="float: left; height: 100vh; width: 500px;" id="googleMap"></div>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAymPslj6q9BslJXHoIwpEZr0bBQ9UA0os&callback=initMap&region=kr"></script>
+  <script src="./js/script.js"></script>
+</body>
