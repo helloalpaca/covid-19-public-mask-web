@@ -3,7 +3,6 @@
 2020년 1학기 인터넷과 웹기초 수업 텀프로젝트를 위한 샘플 코드
 공적 마스크 제도 종료(2020년 7월 11일)이후 API 종료, 현재 프로젝트 실행 불가능합니다.
 - email address : jms393497@gmail.com <br />
-- blog : https://popcorn16.tistory.com/ <br />
 
 ## Introduction
 <img src="/images/before.png" width="400px" height="250px" title="before" alt="before"></img> <br />
